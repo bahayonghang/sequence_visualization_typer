@@ -6,10 +6,10 @@
 set -e
 
 # 激活虚拟环境
-source .venv/bin/activate
+# source .venv/bin/activate
 
 # Run the Nuitka command to compile main.py into an executable
-nuitka \
+uvx nuitka \
 --standalone \
 --onefile \
 --output-dir=dist \
